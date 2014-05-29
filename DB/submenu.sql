@@ -38,6 +38,11 @@ CREATE TABLE IF NOT EXISTS `submenu` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=25 ;
 
+
+INSERT INTO `submenu` (`id`, `label`, `view`, `url`, `linkOption`, `position`, `visibility`, `menu_id`) VALUES
+(22, 'Submenus', '', '/submenu/admin', '', 2, 1, 46),
+(23, 'Menus', '', '/menu/admin', '', 1, 1, 46);
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

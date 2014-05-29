@@ -42,8 +42,10 @@ CREATE TABLE IF NOT EXISTS `menu` (
 
 
 
-INSERT INTO `menu` (`id`, `label`, `view`, `url`, `visibility`, `role`, `position`, `menu_group_id`) VALUES
-(0, 'Home', '/site/index', '/site/index', 1, 'domain_user', 1, 1);
+INSERT INTO `menu` (`id`, `label`, `view`, `url`, `linkOption`, `visibility`, `role`, `position`, `menu_group_id`) VALUES
+(0, 'Home', '/site/index', '/site/index', 'js:alert();', 1, 'domain_users', 1, 1),
+(46, 'Menus', '', '#', '', 1, 'domain_users', 1, 2),
+(48, 'Home', '#', '/site/index', 'js:alert($(''#username'').val());', 1, 'domain_users', 0, 2);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
