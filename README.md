@@ -6,9 +6,9 @@ Yii::1.1 DBMenu (A DB Driven CMenu)
 Setup Steps:
 
 1. Download widget 
-GIT Repository
 
-Download DBMenu.zip from: DBMenu.zip
+
+
 
 Extract DBMenu to your extensions folder: e.g. /protected/extensions
 
